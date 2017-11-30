@@ -1,3 +1,7 @@
+这个项目有很多问题，跑是可以跑，但是有一些很显然的代码结构以及风格问题没时间修改。
+
+本项目调用的是OpenCV3的API，叫做seamlessClone。所以想看算法细节，还是看OpenCV源码，或者大佬们的博客吧。
+
 # 一、问题描述
 
 - 实现Poisson Image Editing算法的无缝融合应用(大型稀疏方程组求解)
@@ -92,7 +96,8 @@ $$
 
 # 三、结果
 
-
+![](https://raw.githubusercontent.com/SouthEastUniversityLinuxClub/PoissonSeamlessClone/master/result.png)
 
 # 四、总结
 
+​	通过这次作业，我感觉到任何计算机图形学的精妙效果都离不开数学知识的支持，算法是支持一切特效的基础。想要做出令人惊叹的图形学特效，需要有良好的数学知识。
